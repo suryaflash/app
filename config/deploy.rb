@@ -1,7 +1,7 @@
 # config valid for current version and patch releases of Capistrano
 lock "~> 3.11.0"
 
-set :application, "app"
+set :application, "dummyapp"
 set :repo_url, "git@github.com:suryaflash/app.git"
 
 set :deploy_to, '/var/www/app'
