@@ -13,7 +13,7 @@ server '3.14.70.77', user: 'ubuntu', roles: %w{app db web}
 
 # role-based syntax
 # ==================
-
+config.secret_key_base = ENV["SECRET_KEY_BASE"]
 # Defines a role with one or multiple servers. The primary server in each
 # group is considered to be the first unless any hosts have the primary
 # property set. Specify the username and a domain or IP for the server.
