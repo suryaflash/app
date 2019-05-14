@@ -2,7 +2,7 @@
 lock "~> 3.11.0"
 
 set :application, "app"
-set :repo_url, ""
+set :repo_url, "git@github.com:suryaflash/app.git"
 
 set :deploy_to, '/var/www/app'
 
