@@ -13,7 +13,7 @@ server '3.14.70.77', user: 'ubuntu', roles: %w{app db web}
 
 # role-based syntax
 # ==================
-config.secret_key_base = '5e5669581087d194b459f8695ae375c04c2139d1b2eb8a4cf0d785e260b94bbf59abf49d1d0a2b29228b183e259eb844e20e562dddf615ba47c5c44f0ac36785'
+# config.secret_key_base = '5e5669581087d194b459f8695ae375c04c2139d1b2eb8a4cf0d785e260b94bbf59abf49d1d0a2b29228b183e259eb844e20e562dddf615ba47c5c44f0ac36785'
 # Defines a role with one or multiple servers. The primary server in each
 # group is considered to be the first unless any hosts have the primary
 # property set. Specify the username and a domain or IP for the server.
