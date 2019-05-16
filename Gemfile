@@ -33,6 +33,7 @@ gem 'capistrano-rvm'
 
 
 gem 'figaro'
+gem 'pry'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
